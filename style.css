@@ -121,8 +121,7 @@ dialog::backdrop{background:#132a1fc2}.dialog-bar{display:flex;align-items:cente
 }
 .art-link:hover > span {background:#dfead4}
 .case-art figcaption {font-size:12px;line-height:1.45;color:var(--muted);margin-top:6px}
-.vector-download,.figure-original {font-size:13px;font-weight:600;text-decoration:underline;text-underline-offset:.18em}
-.vector-download {display:inline-block;margin-top:6px}
+.figure-original {font-size:13px;font-weight:600;text-decoration:underline;text-underline-offset:.18em}
 .case-note {border-block:1px solid var(--line)}
 .case-study .case-note > summary {
   display:flex;align-items:center;justify-content:space-between;gap:16px;
