@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f7ef">
+  <title>Samyuktha Saravanan — Data Science &amp; Applied AI</title>
+  <meta name="description" content="Meet Samyuktha Saravanan. Explore her Honeywell Aerospace projects, play with results from her ASU research, and browse her work in data science and applied AI.">
+  <link rel="preload" href="assets/sam-portrait-wave.webp" as="image">
+  <link rel="stylesheet" href="style.css"><script defer src="art.js"></script><script defer src="site.js"></script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to projects</a>
+<header class="header" id="home"><div class="wrap nav">
+  <a class="brand" href="#home"><i aria-hidden="true">S.</i><span>Sam Saravanan</span></a>
+  <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#lab">Data lab</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+  <a class="resume" href="Samyuktha-Saravanan-Resume.pdf" download>Résumé <span class="download" aria-hidden="true"></span></a>
+</div></header>
+<main>
+<section class="hero wrap" aria-labelledby="welcome-title">
+  <div class="intro">
+    <p class="role"><span></span> DATA SCIENTIST <i>·</i> HONEYWELL AEROSPACE</p>
+    <h1 id="welcome-title">Hi, I’m <em>Sam.</em></h1>
+    <p class="big-intro">How many hours will an aircraft fly? Can the Pacific help predict an Arizona winter? And can a model guess who gets the final rose?</p>
+    <p class="small-intro">I’m Samyuktha Saravanan. I build tools for aviation and supply-chain teams, and I like to put a good statistical hunch to the test.</p>
+    <div class="actions"><button class="btn primary" type="button" id="open-tour">Show me around <span aria-hidden="true">→</span></button><a class="quiet" href="#archive">Browse projects <span aria-hidden="true">↓</span></a></div>
+  </div>
+  <div class="studio" role="group" aria-label="Animated greeting from Sam">
+    <div class="studio-grid" aria-hidden="true"></div><div class="sun" aria-hidden="true"></div>
+    <span class="cross x1" aria-hidden="true"></span><span class="cross x2" aria-hidden="true"></span><span class="spark s1" aria-hidden="true">✦</span><span class="spark s2" aria-hidden="true">✦</span>
+    <div class="speech" id="speech" aria-live="polite">Oh, hi there!</div>
+    <div class="avatar-rig" aria-hidden="true"><div class="avatar-sway"><img class="avatar-hand" src="assets/sam-portrait-wave.webp" fetchpriority="high" alt=""><img class="avatar-body" src="assets/sam-portrait-wave.webp" alt=""></div></div>
+    <button class="wave-btn" type="button" id="wave" aria-label="Wave back to Sam"><span class="wave-dot" aria-hidden="true"></span><span>Wave back</span><span aria-hidden="true">→</span></button>
+  </div>
+</section>
+<section class="wrap work" id="work" aria-labelledby="work-title">
+  <div class="section-head"><div><p class="eyebrow"><i></i> HONEYWELL AEROSPACE</p><h2 id="work-title">On the job<span>.</span></h2></div><a class="quiet" href="#archive">Full project index <span aria-hidden="true">↓</span></a></div>
+  <div class="features"><a class="feature lilac" href="#market" data-case="market"><span class="feature-cat">Market strategy</span><span class="feature-glyph contour" aria-hidden="true"><canvas data-thumb="contour"></canvas></span><span class="feature-title">$575M</span><span class="feature-sub">in potential demand</span><p>Sizing a ten-year opportunity for enhanced flight vision systems on new aircraft.</p><span class="case-read">View project <i aria-hidden="true">→</i></span></a><a class="feature mint" href="#flight" data-case="flight"><span class="feature-cat">Aviation analytics</span><span class="feature-glyph airpaths" aria-hidden="true"><canvas data-thumb="airpaths"></canvas></span><span class="feature-title">14%</span><span class="feature-sub">improvement in accuracy</span><p>Comparing flight-hour models to sharpen maintenance plan pricing.</p><span class="case-read">View project <i aria-hidden="true">→</i></span></a><a class="feature cream" href="#mrp" data-case="mrp"><span class="feature-cat">Planning data quality</span><span class="feature-glyph grid" aria-hidden="true"><canvas data-thumb="grid"></canvas></span><span class="feature-title">MRP Audit</span><span class="feature-sub">dashboard</span><p>A scored work queue that helps planners trace SAP exceptions to the records that need attention.</p><span class="case-read">View project <i aria-hidden="true">→</i></span></a><a class="feature peach" href="#recognitions" data-case="recognitions"><span class="feature-cat">Employee recognition</span><span class="feature-glyph rosette" aria-hidden="true"><canvas data-thumb="rosette"></canvas></span><span class="feature-title">Recognitions</span><span class="feature-sub">workflow prototype</span><p>A four-step nomination form that adapts to one person, two people, or a team.</p><span class="case-read">View project <i aria-hidden="true">→</i></span></a></div>
+</section>
+<section class="lab-section" id="lab" aria-labelledby="lab-title"><div class="wrap">
+  <div class="section-head"><div><p class="eyebrow"><i></i> ARIZONA STATE UNIVERSITY</p><h2 id="lab-title">The data lab<span>.</span></h2></div><p class="sec-note">Pick a study and explore the results from my project notebooks.</p></div>
+  <div class="lab-tabs" role="tablist" aria-label="Choose a study"><button type="button" role="tab" aria-selected="true" tabindex="0" id="tab-flight" aria-controls="lab-flight" data-lab="flight">Flight signals</button><button type="button" role="tab" aria-selected="false" tabindex="-1" id="tab-rain" aria-controls="lab-rain" data-lab="rain">Winter rainfall</button><button type="button" role="tab" aria-selected="false" tabindex="-1" id="tab-neural" aria-controls="lab-neural" data-lab="neural">Neural networks</button><button type="button" role="tab" aria-selected="false" tabindex="-1" id="tab-rose" aria-controls="lab-rose" data-lab="rose">The Bachelor</button>
+    <button type="button" role="tab" aria-selected="false" tabindex="-1" id="tab-life" aria-controls="lab-life" data-lab="life">Life expectancy</button></div>
+  <article class="lab-panel" role="tabpanel" aria-labelledby="tab-flight" id="lab-flight">
+    <div class="experiment"><p class="chart-label">LIGHT-GA · CORRELATION COEFFICIENT</p><div class="axis-key" aria-hidden="true"><span>−1</span><span>0</span><span>+1</span></div><div class="signals"><button class="signal" type="button" data-name="Corporate profits" data-r="0.87" aria-pressed="true"><span>Corporate profits</span><i class="axis" aria-hidden="true"><i class="bar pos" style="--length:43.50%"></i></i><strong>+0.87</strong></button><button class="signal" type="button" data-name="CPI" data-r="0.87" aria-pressed="false"><span>CPI</span><i class="axis" aria-hidden="true"><i class="bar pos" style="--length:43.50%"></i></i><strong>+0.87</strong></button><button class="signal" type="button" data-name="GDP" data-r="0.79" aria-pressed="false"><span>GDP</span><i class="axis" aria-hidden="true"><i class="bar pos" style="--length:39.50%"></i></i><strong>+0.79</strong></button><button class="signal" type="button" data-name="GDP per capita" data-r="0.74" aria-pressed="false"><span>GDP per capita</span><i class="axis" aria-hidden="true"><i class="bar pos" style="--length:37.00%"></i></i><strong>+0.74</strong></button><button class="signal" type="button" data-name="Oil" data-r="0.65" aria-pressed="false"><span>Oil</span><i class="axis" aria-hidden="true"><i class="bar pos" style="--length:32.50%"></i></i><strong>+0.65</strong></button><button class="signal" type="button" data-name="S&amp;P 500" data-r="-0.64" aria-pressed="false"><span>S&amp;P 500</span><i class="axis" aria-hidden="true"><i class="bar neg" style="--length:32.00%"></i></i><strong>−0.64</strong></button><button class="signal" type="button" data-name="Dow Jones" data-r="-0.74" aria-pressed="false"><span>Dow Jones</span><i class="axis" aria-hidden="true"><i class="bar neg" style="--length:37.00%"></i></i><strong>−0.74</strong></button></div></div>
+    <div class="lab-copy"><span class="course">STP 584 · Honeywell internship</span><h3>What moves with flight activity?</h3><p>I used fleet records and economic indicators to look beyond a GDP-only forecast. Choose a row to see how that series moved with the Light-GA aircraft segment.</p>
+      <p class="observation" id="signal-note" aria-live="polite"><b>Corporate profits · +0.87</b><br>Higher corporate profits tended to coincide with higher Light-GA values in this sample.</p>
+      <p class="source-note">Values come from my original correlation heatmap. The coefficients describe associations in the sample. Forecast accuracy was evaluated separately.</p>
+      <details class="figures"><summary>Open the original figures <i aria-hidden="true">+</i></summary><div><a class="figure-link" href="assets/light-ga.webp" data-figure data-caption="Correlations between Light-GA, fleet groupings, and economic series." data-title="Light-GA heatmap">Light-GA heatmap <i aria-hidden="true">→</i></a><a class="figure-link" href="assets/fleets.webp" data-figure data-caption="Matrix showing pairwise correlations across the fleet and economic series." data-title="All fleet segments">All fleet segments <i aria-hidden="true">→</i></a><a class="figure-link" href="assets/grouped.webp" data-figure data-caption="Correlation matrix for the light, medium, and large groups and selected indicators." data-title="Aircraft size groups">Aircraft size groups <i aria-hidden="true">→</i></a><a class="figure-link" href="assets/profit-scatter.webp" data-figure data-caption="Original scatterplot with corporate profits on the horizontal axis and Light-GA on the vertical axis." data-title="Corporate profits scatterplot">Corporate profits scatterplot <i aria-hidden="true">→</i></a></div></details>
+    </div>
+  </article>
+  <article class="lab-panel" role="tabpanel" aria-labelledby="tab-rain" id="lab-rain" hidden>
+    <div class="experiment rainfall"><p class="chart-label">MODEL FIT BY STATE · ADJUSTED R²</p><div class="state-buttons" role="group" aria-label="Select a state">
+       <button data-state="az" aria-pressed="true" type="button">Arizona</button><button data-state="nm" aria-pressed="false" type="button">New Mexico</button><button data-state="co" aria-pressed="false" type="button">Colorado</button></div>
+      <div class="stat-rain" id="rain-value">26.2<span>%</span></div>
+      <div class="rainmeter" aria-hidden="true"><i style="width:26.2%" id="rain-fill"></i></div><div class="rainscale"><span>0%</span><span>100%</span></div>
+      <p class="caption" id="rain-caption">Arizona · adjusted R² from the retained model</p></div>
+    <div class="lab-copy"><span class="course">STP 530 · Applied regression</span><h3>Does the same ocean signal explain rain in three states?</h3><p>We fitted separate models to winter precipitation from 1950 to 2018. The Pacific’s Niño 3.4 index and the Atlantic Multidecadal Oscillation were useful predictors in Arizona and New Mexico.</p><p class="observation" id="rain-note" aria-live="polite"><b>Arizona</b><br>The retained two-index model had an adjusted R² of 0.262. Much of the variation in winter rainfall remained unexplained.</p><p class="source-note">From the STP 530 project on Southwest precipitation, Tables 6–8. Adjusted R² summarizes fit after accounting for the number of predictors.</p></div>
+  </article>
+  <article class="lab-panel" role="tabpanel" aria-labelledby="tab-neural" id="lab-neural" hidden>
+    <div class="experiment neural"><p class="chart-label">EXPONENTIAL CURVE · ORIGINAL MODEL OUTPUT</p><div class="state-buttons" role="group" aria-label="Choose the prediction range">
+      <button data-range="inside" aria-pressed="true" type="button">Inside training range</button><button data-range="outside" aria-pressed="false" type="button">Outside range</button></div>
+      <img id="neural-chart" width="728" height="438" src="assets/net-inside.webp" alt="Original figure 8a. The model prediction follows the exponential curve on test inputs within the training range." loading="lazy"><p class="caption" id="neural-caption">Figure 8a · Interpolation</p></div>
+    <div class="lab-copy"><span class="course">STP 540 · Neural networks</span><h3>Where does a good curve fit stop working?</h3><p>Our team wrote a feedforward network in Python and varied the activation function, layer width, and training settings. Then we tested it where it had never seen data.</p><p class="observation" id="neural-note" aria-live="polite"><b>Inside the training range</b><br>On this exponential curve, the network tracked held-out points between observed inputs. Switch ranges to see what happened beyond them.</p></div>
+  </article>
+  <article class="lab-panel" role="tabpanel" aria-labelledby="tab-rose" id="lab-rose" hidden>
+    <div class="experiment rose"><p class="chart-label">THE BACHELOR · MODEL CHALLENGE</p><div class="quiz-number">130</div><p class="quiz-label">contestants in the neural network’s test set.</p><p class="quiz-question" id="quiz-prompt">How many finishing places did it predict exactly?</p><div class="state-buttons quiz-options" role="group" aria-labelledby="quiz-prompt"><button type="button" data-guess="15" aria-pressed="false">15</button><button type="button" data-guess="65" aria-pressed="false">65</button><button type="button" data-guess="100" aria-pressed="false">100</button></div><p class="quiz-feedback" id="quiz-answer" aria-live="polite"></p></div>
+    <div class="lab-copy"><span class="course">STP 598 · Machine learning</span><h3>Can machine learning call the final rose?</h3><p>Our team compared models on 422 contestants across seasons 11–25. We studied first-impression roses, one-on-one dates, and final rankings. Exact placement turned out to be a much harder target than the broad order.</p><a class="inline" href="assets/bachelor-matrix.webp" data-figure data-title="Predicted and observed finishing places" data-caption="STP 598, Figure 12. Cells on the diagonal are exact finishes.">View our confusion matrix <span aria-hidden="true">→</span></a></div>
+  </article>
+  <article class="lab-panel" role="tabpanel" aria-labelledby="tab-life" id="lab-life" hidden>
+    <div class="experiment health-study">
+      <p class="chart-label">LIFE EXPECTANCY · COUNTRY-YEAR OBSERVATIONS</p>
+      <div class="state-buttons" role="group" aria-label="Choose a health or education indicator">
+        <button type="button" data-indicator="schooling" aria-pressed="true">Schooling</button>
+        <button type="button" data-indicator="vaccination" aria-pressed="false">Diphtheria vaccination</button>
+        <button type="button" data-indicator="hiv" aria-pressed="false">HIV/AIDS</button>
+      </div>
+      <div aria-live="polite" aria-atomic="true">
+        <figure data-indicator-plot="schooling">
+          <img src="assets/life-schooling.webp" width="382" height="262" loading="lazy" alt="Scatterplot of life expectancy against years of schooling. The fitted line rises from left to right.">
+          <figcaption><strong>Years of schooling · r = +0.75</strong>Schooling had the strongest positive correlation in our heatmap. Life expectancy still varied among country-years with similar schooling.</figcaption>
+        </figure>
+        <figure data-indicator-plot="vaccination" hidden>
+          <img src="assets/life-vaccination.webp" width="382" height="262" loading="lazy" alt="Life expectancy plotted against diphtheria vaccination coverage. Observations cluster near the high end of coverage.">
+          <figcaption><strong>Diphtheria vaccination · r = +0.48</strong>Country-years with higher vaccination coverage tended to have longer life expectancy. The spread is wide even at high coverage.</figcaption>
+        </figure>
+        <figure data-indicator-plot="hiv" hidden>
+          <img src="assets/life-hiv.webp" width="382" height="262" loading="lazy" alt="Scatterplot of life expectancy against the HIV/AIDS indicator. The fitted line slopes downward.">
+          <figcaption><strong>HIV/AIDS indicator · r = −0.56</strong>The relationship runs in the opposite direction here. Higher HIV/AIDS indicator values tended to coincide with shorter life expectancy.</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="lab-copy">
+      <span class="course">IEE 577 · Applied regression</span>
+      <h3>Which indicators tracked life expectancy?</h3>
+      <p>We studied public-health, economic, and education records from 193 countries between 2000 and 2015. In Python, we fitted a regression model with several predictors and held out 20% of the records for testing.</p>
+      <p class="observation"><b>Read the scatterplot</b><br>Choose an indicator to see its relationship with life expectancy. Each dot represents a country in a given year. The red line shows the trend for that indicator alone.</p>
+      <a class="inline" href="assets/life-heatmap.webp" data-figure data-title="Correlations with life expectancy" data-caption="The IEE 577 report’s heatmap of 15 indicators. The coefficients summarize associations across country-years.">See all 15 correlations <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+</div></section>
+<section class="wrap archive" id="archive"><div class="section-head"><div><p class="eyebrow"><i></i> PROFESSIONAL &amp; ACADEMIC WORK</p><h2>Project index<span>.</span></h2></div><label class="search"><span class="mag" aria-hidden="true"></span><span class="sr-only">Search projects</span><input type="search" id="project-search" placeholder="Search projects or tools"></label></div>
+  <div class="filters" role="group" aria-label="Filter projects"><button type="button" data-filter="All" aria-pressed="true">All <span>14</span></button><button type="button" data-filter="Honeywell" aria-pressed="false">Honeywell <span>7</span></button><button type="button" data-filter="Zoho" aria-pressed="false">Zoho <span>1</span></button><button type="button" data-filter="Research" aria-pressed="false">Research <span>5</span></button><button type="button" data-filter="Verzeo" aria-pressed="false">Verzeo <span>1</span></button></div><p class="index-status" id="result" aria-live="polite"></p><div class="list"><details id="market" class="project" data-org="Honeywell"><summary><span class="org">Honeywell</span><span class="ptitle">Sizing the market for enhanced flight vision</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>How much demand could Honeywell capture for enhanced flight vision systems installed on new aircraft? I combined internal product data with seven macroeconomic and industry signals to estimate Honeywell’s share of demand over ten years. The analysis identified a $575 million opportunity and informed a growth strategy for senior leadership.</p><small>Market sizing · Machine learning · Aviation strategy</small></div></details>
+<details id="flight" class="project" data-org="Honeywell"><summary><span class="org">Honeywell</span><span class="ptitle">Flight-hour forecasting for maintenance pricing</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>How many hours will an aircraft fly? During my Honeywell internship, I grouped Cirium fleet records by aircraft size and delivery status. I tested which economic signals moved with flight activity and compared the forecasts with historical results from a GDP-only approach.</p><p>I later designed experiments to compare flight-hour models and improved calculation accuracy by 14%. The estimates informed Maintenance Service Plan pricing and sales planning for aircraft manufacturers and auxiliary power units.</p><small>STP 584 · Fleet analysis · Python · SQL · Regression · Model evaluation</small><a class="inline" href="#lab-flight">Explore the flight signals <span aria-hidden="true">→</span></a></div></details>
+<details id="mrp" class="project" data-org="Honeywell">
+  <summary><span class="org">Honeywell</span><span class="ptitle">MRP Audit dashboard</span><span class="plus" aria-hidden="true"></span></summary>
+  <div class="body"><div class="case-study">
+    <p class="case-intro">I led the design and development of this material requirements planning (MRP) dashboard from scratch, including its SQL audit rules, .NET 9 API, and React interface. Planners can filter SAP data-quality findings by plant or product, inspect the rule behind each finding, review trends, and export a worklist to Excel.</p>
+    <div class="case-layout">
+      <div class="case-walkthrough">
+        <h3>When a part’s controller assignment fails a check</h3>
+        <ol>
+          <li><strong>Check the assignment.</strong> Does the part’s controller code map to an active employee in a qualifying planning role at that plant?</li>
+          <li><strong>Prioritize the finding.</strong> If the assignment fails the check, the dashboard flags it for manual review. The planner can use the next 12 months of demand to decide how urgently to investigate.</li>
+          <li><strong>Verify the correction.</strong> The planner checks the source records, corrects the assignment or mapping there, or confirms an exception with its owner. A later audit run shows whether the finding cleared.</li>
+        </ol>
+      </div>
+      <figure class="case-art">
+        <a class="art-link" href="assets/mrp-audit-illustration.png" data-figure data-title="MRP controller audit illustration" data-caption="Illustrative dashboard with synthetic data. The example shows 180 open findings across 1,000 in-scope part and plant combinations.">
+          <img src="assets/mrp-audit-illustration.png" width="1600" height="1000" loading="lazy" decoding="async" alt="Illustrative MRP scorecard. A controller assignment moves from a failed rule to manual review and source verification.">
+          <span>Enlarge dashboard illustration <span aria-hidden="true">→</span></span>
+        </a>
+        <figcaption>The illustration uses a fictional plant, part, and counts.</figcaption>
+      </figure>
+    </div>
+    <details class="case-note">
+      <summary>How is the audit score calculated?</summary>
+      <p>Each rule has its own set of eligible part and plant combinations. In the illustration, 180 of 1,000 pairs have an open controller finding. That leaves 820 clear, for a score of 82%. The overall score averages the rules with at least one eligible pair.</p>
+      <p>Other rules check planning settings. For example, one flags a stocked part missing its cycle-count indicator. Another flags a goods-receipt processing time set above five days.</p>
+    </details>
+    <small>SQL Server · .NET 9 · React · SAP · Excel exports</small>
+  </div></div>
+</details>
+<details id="recognitions" class="project" data-org="Honeywell">
+  <summary><span class="org">Honeywell</span><span class="ptitle">Recognitions app prototype</span><span class="plus" aria-hidden="true"></span></summary>
+  <div class="body"><div class="case-study">
+    <p class="case-intro">I led the Recognitions prototype from scratch, defining the workflow, directing the design, and building it in React with GitHub Copilot. Some colleagues couldn’t open the existing Microsoft Form and sent monthly nominations by email. I adapted the form’s branching rules and used the MRP Audit dashboard as the visual reference for the prototype.</p>
+    <div class="case-layout">
+      <div class="case-walkthrough">
+        <h3>From nomination to local history</h3>
+        <ol>
+          <li><strong>Choose who to recognize.</strong> The first two steps cover recognition size and recipients. Switching from two people to a team clears the individual names and asks for the team name.</li>
+          <li><strong>Describe the contribution.</strong> An earlier nomination credited a planner who coordinated several teams during a material shortage to meet priority demand. The prototype prompts for the contribution, its impact, the behaviors involved, and the recognition month.</li>
+          <li><strong>Save and find it again.</strong> The form validates each step and keeps applicable answers when the user goes back. A saved nomination appears in that browser’s searchable history and can be reopened and printed.</li>
+        </ol>
+      </div>
+      <figure class="case-art">
+        <a class="art-link" href="assets/recognitions-workflow.png" data-figure data-title="Recognitions nomination workflow" data-caption="Anonymized workflow illustration based on the working prototype. The four-step form validates entries and saves them to searchable history in the current browser. Shared enterprise integrations are planned.">
+          <img src="assets/recognitions-workflow.png" width="1440" height="920" loading="lazy" decoding="async" alt="Four-step recognition workflow covering nomination size, recipients, contribution and behaviors, and recognition month, followed by a browser-local save.">
+          <span>Enlarge workflow illustration <span aria-hidden="true">→</span></span>
+        </a>
+        <figcaption>Anonymized workflow illustration based on the working prototype. Shared enterprise integrations are planned.</figcaption>
+        <a class="vector-download" href="assets/recognitions-portfolio-workflow.svg" download>Download workflow as SVG <span aria-hidden="true">↓</span></a>
+      </figure>
+    </div>
+    <details class="case-note">
+      <summary>Why count nominations separately from participation?</summary>
+      <p>A two-person nomination creates one saved record. An official participation total needs additional rules about how to count people, teams, and nominations carried into another month. The prototype reports saved-record volume and leaves the official participation total pending.</p>
+      <p>The four-screen prototype passed six automated tests and a production build on November 10, 2026.</p>
+    </details>
+    <small>React 19 · TypeScript · Vite · React Router · localStorage · GitHub Copilot</small>
+  </div></div>
+</details>
+<details id="planner" class="project" data-org="Honeywell"><summary><span class="org">Honeywell</span><span class="ptitle">Supply-chain planning assistant</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>A buyer can ask how much stock is on hand, check a lead time, or look up the policy behind a planning decision. I built the Python and LangChain agents that answer these questions and link policy answers to their sources. The assistants saved planners and buyers more than 25 hours of manual work a week.</p><p>I also worked with planning, procurement, and logistics teams on forecasting and anomaly detection to flag potential stockouts and delivery delays.</p><small>Python · LangChain · Retrieval-augmented generation (RAG) · Forecasting · Anomaly detection</small></div></details>
+<details id="bachelor" class="project" data-org="Research"><summary><span class="org">Research</span><span class="ptitle">Can a model predict The Bachelor?</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>We studied 422 contestants from seasons 11–25 and tested linear regression, random forests, a Keras network, and Bayesian additive regression trees. The network predicted the exact finishing place for 15 of 130 held-out contestants. A model could capture a ranking pattern and still miss the precise finishing order.</p><small>ASU · STP 598 · Keras · BART</small><a class="inline" href="#lab-rose">Try the final-rose question →</a></div></details>
+<details id="neural" class="project" data-org="Research"><summary><span class="org">Research</span><span class="ptitle">Building a feedforward neural network in Python</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>Our team implemented fully connected layers, forward propagation, and backpropagation. We varied the hidden-layer width, activation, learning rate, and training duration. On an exponential curve, a single-hidden-layer network tracked held-out points inside the observed range much better than it predicted points outside that range.</p><small>ASU · STP 540 · Python · NumPy</small><a class="inline" href="#lab-neural">Compare the original figures →</a></div></details>
+<details id="climate" class="project" data-org="Research"><summary><span class="org">Research</span><span class="ptitle">Ocean signals and Southwest winter rainfall</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>We studied Arizona, New Mexico, and Colorado separately using winter precipitation records from 1950–2018. Niño 3.4 and the Atlantic Multidecadal Oscillation appeared in the retained models for Arizona and New Mexico. Even the more complex Colorado model had an adjusted R² of only 0.068. Geography changed how much the ocean indices could explain.</p><small>ASU · STP 530 · R · Applied regression</small><a class="inline" href="#lab-rain">Compare the three states →</a></div></details>
+<details id="reporting" class="project" data-org="Honeywell"><summary><span class="org">Honeywell</span><span class="ptitle">Automating aviation planning reports</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>I built SQL pipelines and Power BI dashboards for strategic planning in Air Transport and Business Aviation. Automating those reports replaced 40 hours of manual reporting each week.</p><small>SQL · Power BI · Reporting automation</small></div></details>
+<details id="churn" class="project" data-org="Zoho"><summary><span class="org">Zoho</span><span class="ptitle">Product usage at Zoho and churn prediction for Zoho Books</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>I analyzed about 20 GB of product interaction data across Zoho’s SaaS tools to understand how people used them. For Zoho Books, I combined raw usage records from several sources, engineered features in Python, and trained classification models to identify accounts at risk of leaving.</p><small>Python · Classification · ETL · SaaS product analytics</small></div></details>
+<details id="longevity" class="project" data-org="Research"><summary><span class="org">Research</span><span class="ptitle">Public health and life expectancy</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>For IEE 577, we analyzed World Health Organization data from 193 countries between 2000 and 2015. We used Python to explore correlations and fit a multivariable regression model with an 80/20 train-test split. Schooling had the strongest positive correlation with life expectancy in our heatmap (r = 0.75).</p><small>ASU · IEE 577 · Python · Multivariable regression · Public health</small><a class="inline" href="#lab-life">Compare the health indicators <span aria-hidden="true">→</span></a></div></details>
+<details id="fraud" class="project" data-org="Research"><summary><span class="org">Research</span><span class="ptitle">Detecting credit card fraud</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>I compared Isolation Forest, Local Outlier Factor, and a support vector machine on 284,807 Kaggle transactions. Isolation Forest had the highest overall accuracy at 99.74%. With rare fraud, overall accuracy alone cannot show how many fraudulent transactions a model catches.</p><small>Python · Outlier detection · Model evaluation</small></div></details>
+<details id="verzeo-ml" class="project" data-org="Verzeo"><summary><span class="org">Verzeo</span><span class="ptitle">Face detection, music recommendations, and stock forecasting</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>During my data science internship at Verzeo, I worked on a face detector for images, a music recommendation system, and a model for predicting stock prices.</p><small>Computer vision · Music recommendation · Stock price prediction</small></div></details>
+<details id="feedback" class="project" data-org="Honeywell"><summary><span class="org">Honeywell</span><span class="ptitle">Product feedback and service opportunity forecasting</span><span class="plus" aria-hidden="true"></span></summary><div class="body"><p>During my Honeywell internship, I used SQL and Excel to organize customer feedback across more than 150 products. For the Area of Interest forecast, I worked on a Python model using aircraft age and economic conditions to explore where new services could fill gaps in the existing portfolio.</p><small>STP 584 · Customer feedback · Excel · SQL · Python · Market forecasting</small></div></details>
+</div><button class="more" id="show-more" type="button" hidden></button><div id="no-results" hidden><p>No projects match that search.</p><button type="button" class="quiet" id="reset">Clear filters</button></div>
+</section>
+<section class="about" id="about"><div class="wrap aboutgrid"><div><p class="eyebrow"><i></i> BACKGROUND</p><h2>About Sam<span>.</span></h2><p class="aboutlead">I’m a data scientist at Honeywell Aerospace with a background in statistics and computer engineering.</p><p>A lot of my work starts with a question across a desk. A planner needs a lead time. A buyer is worried about a stockout. I like figuring out which data will actually help someone make that call.</p><p>Outside work, I paint, swim, and hike. Arizona also gave me one of my favorite research questions about the link between the Pacific and a desert winter.</p><a class="quiet" href="#lab-rain">Visit the rainfall study <span aria-hidden="true">→</span></a></div><div class="history"><h3>Experience</h3><dl><dt>Honeywell Aerospace</dt><dd>Senior Data Scientist · Oct 2025–present<br>Data Scientist I · Jan 2024–Sep 2025<br>Data Strategy Intern · May 2023 – Dec 2023</dd><dt>Zoho Corporation</dt><dd>Data Science Intern · Nov 2021–Jun 2022</dd><dt>Verzeo</dt><dd>Data Science Intern · Oct–Nov 2021</dd></dl><h3>Education</h3><dl><dt>M.S. in Statistics</dt><dd>Arizona State University · GPA 3.89/4.00</dd><dt>Bachelor of Engineering</dt><dd>Anna University</dd></dl><details class="credentials"><summary>Selected course certificates <span aria-hidden="true">+</span></summary><ul><li><strong>Machine Learning</strong><span>Stanford University</span></li><li><strong>Data Science: Machine Learning</strong><span>HarvardX</span></li><li><strong>Customer Analytics</strong><span>University of Pennsylvania</span></li><li><strong>R Programming</strong><span>Johns Hopkins University</span></li><li><strong>Foundations: Data, Data, Everywhere</strong><span>Google</span></li><li><strong>Deep Learning with PyTorch: Neural Style Transfer</strong><span>Coursera Project Network</span></li><li><strong>Build Your First AI Stock Predictor Using Amazon Forecast</strong><span>Coursera Project Network</span></li></ul></details></div></div></section>
+<section id="contact"><div class="wrap contact"><div><p class="eyebrow"><i></i> CONTACT</p><h2>Say hello<span>.</span></h2><p>I’d love to hear about roles in applied AI, analytics, and data science.</p></div><div class="links"><a href="mailto:samyukthas309@gmail.com">samyukthas309@gmail.com →</a><a href="https://www.linkedin.com/in/samyukthalsaravanan">LinkedIn →</a></div></div></section>
+</main><footer class="wrap"><span>Samyuktha Saravanan</span><a href="#home">Back to top ↑</a></footer>
+<dialog id="tour" aria-labelledby="tour-title"><div class="dialog-bar"><span class="eyebrow">A QUICK TOUR WITH SAM</span><button type="button" class="close-dialog" data-close aria-label="Close tour">×</button></div>
+ <div class="tour-content"><div class="tour-person"><img alt="" src="assets/sam-portrait-wave.webp"><span id="tour-count">1 / 4</span></div><div aria-live="polite"><p class="eyebrow" id="tour-tag"></p><h2 id="tour-title">Around the portfolio</h2><p id="tour-text"></p><a href="#market" id="tour-go" class="inline">View project →</a></div></div>
+ <div class="tour-nav"><button type="button" id="tour-prev" class="quiet">← Previous</button><button type="button" id="tour-next" class="btn primary">Next stop →</button></div>
+</dialog>
+<dialog id="case-dialog" aria-labelledby="case-title"><div class="dialog-bar"><span class="eyebrow" id="case-org">HONEYWELL</span><button type="button" class="close-dialog" data-close aria-label="Close project">×</button></div><div class="case-inside"><h2 id="case-title">Project details</h2><div id="case-copy"></div></div></dialog>
+<dialog id="figure-dialog" aria-labelledby="figure-title"><div class="dialog-bar"><p id="figure-title">Original figure</p><button type="button" class="close-dialog" data-close aria-label="Close figure">×</button></div><figure><img id="figure-image" alt=""><figcaption id="figure-caption"></figcaption><a class="figure-original" id="figure-original" target="_blank" rel="noopener">Open original image <span aria-hidden="true">→</span></a></figure></dialog>
+</body></html>
