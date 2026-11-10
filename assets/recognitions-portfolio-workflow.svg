@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1320" height="760" viewBox="0 0 1320 760" role="img" aria-labelledby="title description">
   <title id="title">Employee recognition workflow</title>
-  <desc id="description">An anonymized diagram of the working, AI-assisted prototype. A nominator chooses a recognition size, enters recipients, describes the contribution and behaviors, and picks a month. Validated records save in that browser for search and printing. Shared enterprise integrations are planned.</desc>
+  <desc id="description">An anonymized diagram of the working, AI-assisted dashboard. A nominator chooses a recognition size, enters recipients, describes the contribution and behaviors, and picks a month. Validated records save in that browser for search and printing. Shared enterprise integrations are planned.</desc>
   <defs>
     <linearGradient id="header" x2="1" y2="1" gradientUnits="objectBoundingBox">
       <stop stop-color="#2146c6"/>
@@ -22,7 +22,7 @@
   </style>
   <rect width="1320" height="760" fill="#f6f8fb"/>
   <rect x="36" y="28" width="1248" height="136" rx="19" fill="url(#header)"/>
-  <text class="eyebrow white" x="66" y="59">WORKING PROTOTYPE</text>
+  <text class="eyebrow white" x="66" y="59">WORKING RECOGNITIONS DASHBOARD</text>
   <text class="title white" x="64" y="106">Employee recognition workflow</text>
   <text class="subtitle" x="66" y="140">Four steps from choosing recipients to saving a nomination in the browser.</text>
 
@@ -80,7 +80,7 @@
   <rect x="708" y="448" width="576" height="189" rx="15" fill="#ebf1ff" stroke="#c7d5ef" stroke-width="1.4"/>
   <text class="head" x="732" y="490">Participation reporting</text>
   <text class="body" x="732" y="530">A nomination for two people still creates one record.</text>
-  <text class="body" x="732" y="559">The prototype reports local record volume.</text>
+  <text class="body" x="732" y="559">The dashboard reports local record volume.</text>
   <text class="note" x="732" y="603">Official counts depend on agreed participation and rollover rules.</text>
 
   <rect x="36" y="663" width="1248" height="68" rx="14" fill="#19273c"/>
